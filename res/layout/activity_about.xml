@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+	>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/app_name"
+			/>
+		<TextView
+			android:id="@+id/about_text_version"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_marginLeft="10dip"
+			/>
+	</LinearLayout>
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<include layout="@layout/divider"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="22sp"
+				android:text="@string/about_help_aboutthisapp"
+				/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/about_help_description" />
+
+			<include layout="@layout/divider"/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="22sp"
+				android:text="@string/about_normal"
+				/>
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/about_normal"
+				android:layout_margin="10dip"/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/about_help_normal" />
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_displayoff"
+					android:drawableLeft="@drawable/displayoff"/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_rec"
+					android:drawableLeft="@drawable/rec"
+					/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_menu"
+					android:drawableLeft="@drawable/settings"/>
+				<include layout="@layout/divider"/>
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/about_menu"
+				android:textSize="22sp"
+				android:layout_marginTop="10dip"
+				/>
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/about_menu"
+				android:layout_margin="10dip"/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/about_help_menustr" />
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_resolution"
+					android:drawableLeft="@drawable/resolution"/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_interval"
+					android:drawableLeft="@drawable/interval"
+					/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_focus"
+					android:drawableLeft="@drawable/focus"/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_moving"
+					android:drawableLeft="@drawable/moving"/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_timer"
+					android:drawableLeft="@drawable/timer"
+					/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_change"
+					android:drawableLeft="@drawable/change"/>
+				<include layout="@layout/divider"/>
+				<TextView
+					android:id="@+id/activity_about_help"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/about_help_about"
+					android:drawableLeft="@drawable/about"/>
+				<include layout="@layout/divider"/>
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+
+
+</LinearLayout>

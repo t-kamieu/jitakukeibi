@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="about_help_aboutthisapp">About this app.</string>
+	<string name="about_help_description">This app is a camera application that performs shooting at regular time intervals.\nThis can be set to shoot only if you can change the interval between shots, anything has changed in the shooting range (see below).\nFor The captured image is saved in the DCIM folder below, you will be able to use the auto upload feature apps such as Dropbox, to see the house from outside.\nPlease use it for applications such as security.\nIn addition, developers will not be held responsible for what happens by using this app.\n\nStore the image is DCIM/Jitakukeibi in the SD card.</string>
+	<string name="about_help_normal">Normal screen.\nWhen you touch screen, autofocus works.\nOn the left-upper corener, shutter resolution and interval are shown.</string>
+	<string name="about_help_displayoff">Display turns off.\nWhen you touch any areas, it turns on.</string>
+	<string name="about_help_rec">Start shooting.\nWhen you touch this again, or works off-timer, stop shooting.</string>
+	<string name="about_help_menu">Show menus.\nRefer after descriptions.</string>
+	<string name="about_help_menustr">Menu screen.\nCan change preferences.</string>
+	<string name="about_help_resolution">Set the shoot resolution.</string>
+	<string name="about_help_interval">Set the shooting interval.\nResolution, focus or motion detection settings affects</string>
+	<string name="about_help_focus">Select autofocus every shoots or fixed focus.</string>
+	<string name="about_help_moving">Shoot only if there are any changes in the shooting range.\nThreshold admits 0 to 255 values.\nIf sets less value, detects also small changes includes noise.</string>
+	<string name="about_help_timer">Set the timer.\nApplication need running if set on-timer.</string>
+	<string name="about_help_change">Change camera front-back.</string>
+	<string name="about_help_about">You show this help on this button.</string>
+
+	<string name="about_menu">Menu</string>
+	<string name="about_normal">Normal</string>
+	<string name="action_settings">Settings</string>
+	<string name="app_name">Jitakukeibi</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_ok">OK</string>
+	<string name="dialog_selector_focus_auto">auto focus</string>
+	<string name="dialog_selector_focus_fixed">fixed focus</string>
+	<string name="dialog_selector_movedetect_use">use moving detect</string>
+	<string name="dialog_selector_movedetect_area">show detected area</string>
+	<string name="dialog_selector_usegallery_yes">Regist Photo onto Gallery</string>
+	<string name="dialog_selector_usegallery_no">Manage Photo Thirds Filer</string>
+	<string name="dialog_title_gallerysettings">Use Gallery</string>
+	<string name="dialog_title_intervalsettings">Interval</string>
+	<string name="dialog_title_movedetectsettings">Moving Detect</string>
+	<string name="dialog_title_movedetectThreshold">Threshold</string>
+	<string name="dialog_title_resolutionsettings">Resolution</string>
+	<string name="dialog_title_focussettings">Focus</string>
+	<string name="dialog_title_timersettings">Timer</string>
+	<string name="error_cant_open_camera">cannot open camera</string>
+	<string name="error_movedetect_color">input 6digits by 0 to 9,A to F</string>
+	<string name="error_movedetect_threshold">input value 0～255</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="loading_message">Please Wait</string>
+	<string name="loading_title">Now Loading</string>
+	<string name="page_title_about">about</string>
+	<string name="text_second">[sec]</string>
+	<string name="text_ontimer">On Timer</string>
+	<string name="text_offtimer">Off Timer</string>
+
+	<string name="testfunc_dialog_title">DETECT Filter Select</string>
+	<string name="testfunc_select_moveAvr">Moving Average Filter</string>
+	<string name="testfunc_select_gaussian">Gaussian Filter</string>
+	<string name="testfunc_select_median">Median Filter</string>
+
+	<string name="main_adText">Show my other app</string>
+
+	<string name="directory_name">Jitakukeibi</string>
+	<string name="dcim_dir_name">DCIM</string>
+</resources>

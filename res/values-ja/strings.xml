@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="about_help_aboutthisapp">このアプリについて</string>
+	<string name="about_help_description">このアプリは一定時間ごとに撮影を行うカメラアプリです．\n撮影間隔を変更できる他，撮影範囲内で何か変更があった場合のみ撮影するように設定ができます(下記参照)．\n撮影した画像はDCIMフォルダ以下に保存されるため，Dropboxなどのアプリのオートアップロード機能が使え，外からでも家の中をみることができます．\n防犯用途などにお使いください．\nなお，このアプリを用いたことによって起こることに対し開発者は責任を負いません．\n\n画像の保管場所はSDカード内の DCIM/Jitakukeibi です．</string>
+	<string name="about_help_normal">通常画面です．\n画面を触るとフォーカスします．\n左上には撮影解像度と撮影間隔の設定が表示されます．</string>
+	<string name="about_help_displayoff">撮影を継続したまま画面の表示を消します．\n画面をどこか触れると戻ります．</string>
+	<string name="about_help_rec">撮影を開始します．\n再度押すか，タイマーのオフで終了します．</string>
+	<string name="about_help_menu">メニューを表示します．\n各メニューは下記のメニュー画面の項目を参照してください．</string>
+	<string name="about_help_menustr">メニュー画面です．\n設定を行うことができます．</string>
+	<string name="about_help_resolution">撮影サイズを設定します．</string>
+	<string name="about_help_interval">撮影間隔を設定します．\n撮影サイズの大きさや，フォーカスの設定，動体検知の設定によっては間隔が短いと取りこぼしするかもしれません．</string>
+	<string name="about_help_focus">毎回フォーカスを合わせるか撮影開始時のフォーカスのまま撮影するかを選択します．\n毎回フォーカスを合わせる場合，撮影間隔の設定に追いつかなくなったり，動体検知に影響が出るかもしれません</string>
+	<string name="about_help_moving">撮影範囲内で変化があった場合のみ撮影します(動体検知)．\nしきい値の設定は0から255で設定でき，小さいほど敏感になりノイズやわずかな変化にも反応します，\n大きいと鈍感になります．\n動いたところをマークする設定は変化のあった範囲を線で囲みます．色の設定はその線の色です．</string>
+	<string name="about_help_timer">オンタイマーとオフタイマーの設定を行います．\nアプリは起動したままにしてください．</string>
+	<string name="about_help_change">インカメラとアウトカメラを切り替えます．\nこの項目は機種によっては表示されません．</string>
+	<string name="about_help_about">この画面を表示したのがこれでしょ．</string>
+
+	<string name="about_menu">メニュー画面</string>
+	<string name="about_normal">通常画面</string>
+	<string name="action_settings">設定</string>
+	<string name="app_name">Jitakukeibi</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_ok">OK</string>
+	<string name="dialog_selector_focus_auto">毎回フォーカスをあわせる</string>
+	<string name="dialog_selector_focus_fixed">固定フォーカス</string>
+	<string name="dialog_selector_movedetect_use">何か動いた時だけ撮影する</string>
+	<string name="dialog_selector_movedetect_area">動いたところをマークする</string>
+	<string name="dialog_selector_usegallery_yes">Regist Photo onto Gallery</string>
+	<string name="dialog_selector_usegallery_no">Manage Photo Thirds Filer</string>
+	<string name="dialog_title_gallerysettings">Use Gallery</string>
+	<string name="dialog_title_intervalsettings">撮影間隔</string>
+	<string name="dialog_title_movedetectsettings">動体検知</string>
+	<string name="dialog_title_movedetectThreshold">しきい値</string>
+	<string name="dialog_title_resolutionsettings">撮影解像度</string>
+	<string name="dialog_title_focussettings">フォーカス</string>
+	<string name="dialog_title_timersettings">タイマー</string>
+	<string name="error_cant_open_camera">カメラが使えませんでした</string>
+	<string name="error_movedetect_color">RGBの値をそれぞれ0から255で設定してください</string>
+	<string name="error_movedetect_threshold">0～255の範囲で設定してください</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="loading_message">Please Wait</string>
+	<string name="loading_title">Now Loading</string>
+	<string name="page_title_about">about</string>
+	<string name="text_second">[秒]</string>
+	<string name="text_ontimer">オンタイマー</string>
+	<string name="text_offtimer">オフタイマー</string>
+
+	<string name="testfunc_dialog_title">DETECT Filter Select</string>
+	<string name="testfunc_select_moveAvr">Moving Average Filter</string>
+	<string name="testfunc_select_gaussian">Gaussian Filter</string>
+	<string name="testfunc_select_median">Median Filter</string>
+
+	<string name="main_adText">★他のアプリもよろしく★</string>
+
+	<string name="directory_name">Jitakukeibi</string>
+	<string name="dcim_dir_name">DCIM</string>
+</resources>

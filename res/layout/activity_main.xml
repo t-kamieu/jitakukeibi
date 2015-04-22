@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	tools:context=".MainActivity" >
+
+    <!-- 右 -->
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_alignParentRight="true"
+		>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:contentDescription="@string/hello_world"
+		/>
+
+	</LinearLayout>
+
+	<!-- 下 -->
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+		android:background="#99000000"
+		>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"
+			android:contentDescription="@string/hello_world"
+			android:src="@drawable/resolution"
+			/>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"
+			android:contentDescription="@string/hello_world"
+			android:src="@drawable/interval"
+			/>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"
+			android:contentDescription="@string/hello_world"
+			android:src="@drawable/focus"
+			/>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"
+			android:contentDescription="@string/hello_world"
+			android:src="@drawable/moving"
+			/>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"
+			android:contentDescription="@string/hello_world"
+			android:src="@drawable/timer"
+			/>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"
+			android:contentDescription="@string/hello_world"
+			android:src="@drawable/change"
+			/>
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"
+			android:contentDescription="@string/hello_world"
+			android:src="@drawable/about"
+			/>
+	</LinearLayout>
+	<com.google.ads.AdView android:id="@+id/adView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adUnitId="ca-app-pub-1492048687441772/6474789040"
+		ads:adSize="BANNER"
+		ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+		ads:loadAdOnCreate="true"
+		/>
+</RelativeLayout>
